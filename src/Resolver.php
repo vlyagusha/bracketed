@@ -26,6 +26,7 @@ class Resolver
                 case ')':
                     $counter--;
                     break;
+				case " ":
                 case "\n":
                 case "\t":
                 case "\r":
